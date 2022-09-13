@@ -1,0 +1,16 @@
+- Xác định topic:
+	+ Bookstore Management
+	+ eTransportSystem
+	+ BakeryRecipe
+
+- Xác định công nghệ, công cụ: 
+	+ Software Development: Agile
+	+ IDE: Netbeans 8.2
+	+ Design: MVC2
+	+ BD: SQL Server
+	+ Backend: Servlet
+	+ Frontend: Bootstrap, HTML/CSS, JS
+
+- Những tìm hiểu về các app hiện có trên thị trường:
+
+- Những tính năng dự kiến sẽ ra mắt:
