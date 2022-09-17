@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
@@ -19,7 +20,9 @@ namespace ConsoleApp1
 
         }
 
-       
+        List<int> a = new List<int>();
+
+        ArrayList
 
         
     }
