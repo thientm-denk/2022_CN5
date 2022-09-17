@@ -1,0 +1,80 @@
+lộ trình 
+(từ tuần 2)
+tuần 2 + 3 ( sprint 1) 
+tuần 4 + 5 ( sprint 2)
+tuần 6 + 7 ( sprint 3)
+tuần 8 + 9 ( sprint 4)
+tuần 10 -->>  Final / review cuối kì , dự kiến tuần 12 sẽ bảo vệ 
+
+mỗi 2 tuần team phân tích requirment / viêt code / kiểm thử
+GV: PO(Product Owner), PM project Manager đưa reqs, cung cấp giải thích , nghiệm thu UAT User Acceptance 
+Testing
+
+! Quản lí nhóm
+1. tool quản lí requirment / công việc được phân công cho các thành viên 
+   - jira
+   - notion
+   - trello
+   - bắt đầu nhập liệu vào tool
+   - định kì nhóm nên họp nhóm với nhau 
+2. lưu code online
+   - Github, GitLab, BitBucket
+3. requirment / features / function / tính năng / user stories
+   - tính năng phần mềm 
+      + dùng text để mô tả tính năng 
+      + dùng USE CASE diagram
+      + vẽ cái màn hình + ô nhập + nút nhấn xử lí = giấy, excel
+      + FIGMA (Mockup, Prototyping, Wireframe tool) , công cụ giúp phác thảo UI để dễ dàng truyền thông 
+trong team , lấy feedback: just in mind, balsamiq,...
+      + Figma: vẽ UI xong, generate ra CSS , image
+* thứ 6 : layout sơ bộ các màn hình của app, danh sách tính năng để QA đi kèm theo từng roles
+
+!! Bí quyết tìm requirment / tên các màn hình / các chứ năng
+   - tìm hiểu các tính năn của phần mềm sẽ làm thông qua tìm hiểu các app đang có sẵn trên thị trường
+   - kĩ thuật đặt câu hỏi : 3 câu hỏi tự đặt ra tự đi tìm câu trả lời
+      1. app viết cho ai dùng: roles / user classes / user type , actor, loại người dùng sẽ dùng app
+         * bất kì ai chạm sờ dùng app -> gọi chung là user, nhưng có người làm được nhiều có người làm được ít 
+         * K cần, k có account, xài được gì không ? có, gọi là GUEST / VISITOR
+         * bạn sẽ quyết định guest làm được gì với web app của bạn
+         * guest 
+             + view the hot deals
+             + view the list of products
+             + view a specific product (product details)
+             + search / filter 
+         * những ai sẽ được phân quyền chi tiết hơn, làm được những thứ mà guest không thể làm được , đòi hỏi có account và login
+             + Cashier : create order tạo mới đơn  hàng tại quầy thu ngân
+             + customer :  create an online order tạo mới đơn hàng qua web app 1 cách chủ động 
+                           pay an order
+                           comment
+                           feedback
+                           manage cart 
+                           ...........
+             + Sales : update status of order
+             + admin : 
+      2. ai sẽ làm được gì với app
+         * liệt kê các tính năng/ các màn hình mà mỗi user có quyền thao tác / chạm vào VERB + OBJECT/ADV
+         * Guest:
+             + search / filter
+      3. những thông tin dữ liệu, đối tượng dữ liệu nào ta cần phải lưu trữ dài dâu
+         * Conceptual Data Model, ERD mức tên ENTITY ( có thể lược bớt các đặc tính / cột / trường / field dữ liệu)
+         ví dụ: 
+            bài mxh công thức làm bánh 
+              - công thức làm bánh !!!
+              - profile của đầu bếp 
+              - dụng cụ làm bánh:   
+            Yến sào
+              - sản phẩm yến 
+              - người mua, giỏ hàng, đơn hàng, danh mục phân loại 
+         * nhận diện những danh từ ( kèm đặc tính mô tả cho danh từ đó ) -> entity / table / DTO class
+   
+ĐÍCH ĐẾN của BA (business analyst) là: tìm ra các tính năng / data object để thỏa mãn nhu cầu lưu trữ xử lí của USER
+- User muốn xử lí info gì để đạt được gì trong công việc của họ 
+- User muốn lưu trữ gì trong công việc của họ
+
+* chuẩn bị cho việc làm app 
+
+1. xác định app của mình là 1 sàn giao dịch hay là 1 chủ thể đơn lẻ ( platform  / company, shop)
+2. mua / download / tìm và độ sẵn layout cho 
+ - end-user, guest/customer
+ - admin, phần quản trị hậu trường: ko cần quá đẹp , chỉ cần đơn giản để CRUD data
+

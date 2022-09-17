@@ -1,0 +1,46 @@
+- Xác định topic:
+	+ Bookstore Management
+	+ eTransportSystem
+	+ BakeryRecipe
+
+- Xác định công nghệ, công cụ: 
+	+ Software Development: Agile
+	+ IDE: Netbeans 8.2
+	+ Design: MVC2
+	+ BD: SQL Server
+	+ Backend: Servlet
+	+ Frontend: Bootstrap, HTML/CSS, JS
+
+- Những tìm hiểu về các app hiện có trên thị trường:
+	+ https://www.yummly.com
+	+ https://www.allrecipes.com
+
+- Những tính năng dự kiến sẽ ra mắt:
+
+--> Store trong thực tế phải đăng ký hay liên hệ trực tiếp nơi cung cấp
+
+!!! Sẽ gồm có 3 màn hình
+1. Admin: 
+	+ Quản lý (Block/Unblock): Store, User
+	+ Chấp thuận đăng bài
+	+ Xóa bài viết
+	+ ...
+2. User
+	*** Trang chủ của user sẽ có hiện tin tức, tìm kiếm,...
+	*** Chỉ có user mới có thể đăng Recipe
+	+ Đăng nhập/Đăng ký
+	+ CRUD Bài viết
+	+ Chỉnh sửa thông tin cá nhân
+	+ Đặt đơn hàng nguyên liệu, dụng cụ
+	+ Comment, Rating bài viết
+	+ Quản lý giỏ hàng cá nhân
+	+ Xem thông tin của cửa hàng
+3. Retail Store
+	*** Chỉ có retail store mới có thể đăng blog
+	+ Đăng nhập/Đăng ký
+	+ Chấp thuận/Hủy bỏ yêu cầu đơn hàng
+	+ Xem thông tin user 
+	+ CRUD Blog  
+
+--> Màn hình đăng ký sẽ được lựa chọn đăng ký với 
+danh nghĩa người dùng hay là cửa hàng
