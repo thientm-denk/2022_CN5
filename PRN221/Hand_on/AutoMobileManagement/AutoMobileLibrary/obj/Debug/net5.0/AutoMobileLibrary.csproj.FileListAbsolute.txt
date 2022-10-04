@@ -1,0 +1,12 @@
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\bin\Debug\net5.0\AutoMobileLibrary.deps.json
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\bin\Debug\net5.0\AutoMobileLibrary.dll
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\bin\Debug\net5.0\AutoMobileLibrary.pdb
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\AutoMobileLibrary.csproj.AssemblyReference.cache
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\AutoMobileLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\AutoMobileLibrary.AssemblyInfoInputs.cache
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\AutoMobileLibrary.AssemblyInfo.cs
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\AutoMobileLibrary.csproj.CoreCompileInputs.cache
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\AutoMobileLibrary.dll
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\refint\AutoMobileLibrary.dll
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\AutoMobileLibrary.pdb
+E:\Study\2022_CN5\PRN221\Hand_on\AutoMobileManagement\AutoMobileLibrary\obj\Debug\net5.0\ref\AutoMobileLibrary.dll

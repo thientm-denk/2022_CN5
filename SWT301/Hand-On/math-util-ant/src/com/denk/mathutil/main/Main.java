@@ -51,6 +51,8 @@ public class Main {
         // n = -5, -5! hy vọng bị đập mặt câu, cà chớ, n ko hợp lệ
         System.out.println("-5! Status | expected: Ngoại lệ | actual: ");
         MathUtil.getFactorial(-5);
+        
+        
 
     }
 }

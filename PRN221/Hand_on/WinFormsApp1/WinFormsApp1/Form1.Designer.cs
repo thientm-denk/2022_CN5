@@ -50,13 +50,15 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.datesubmit = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNhapLieu
             // 
-            this.txtNhapLieu.Location = new System.Drawing.Point(285, 148);
+            this.txtNhapLieu.Location = new System.Drawing.Point(204, 95);
             this.txtNhapLieu.Name = "txtNhapLieu";
             this.txtNhapLieu.Size = new System.Drawing.Size(366, 27);
             this.txtNhapLieu.TabIndex = 0;
@@ -65,7 +67,7 @@
             // hienthi
             // 
             this.hienthi.AutoSize = true;
-            this.hienthi.Location = new System.Drawing.Point(404, 335);
+            this.hienthi.Location = new System.Drawing.Point(119, 282);
             this.hienthi.Name = "hienthi";
             this.hienthi.Size = new System.Drawing.Size(30, 20);
             this.hienthi.TabIndex = 1;
@@ -74,7 +76,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(285, 203);
+            this.button1.Location = new System.Drawing.Point(204, 150);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 40);
             this.button1.TabIndex = 2;
@@ -84,7 +86,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(434, 203);
+            this.button2.Location = new System.Drawing.Point(353, 150);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 40);
             this.button2.TabIndex = 2;
@@ -94,7 +96,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(568, 203);
+            this.button3.Location = new System.Drawing.Point(487, 150);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(83, 40);
             this.button3.TabIndex = 2;
@@ -104,7 +106,7 @@
             // 
             // mutiText
             // 
-            this.mutiText.Location = new System.Drawing.Point(93, 65);
+            this.mutiText.Location = new System.Drawing.Point(12, 19);
             this.mutiText.Multiline = true;
             this.mutiText.Name = "mutiText";
             this.mutiText.Size = new System.Drawing.Size(137, 257);
@@ -114,7 +116,7 @@
             // button4
             // 
             this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(247, 314);
+            this.button4.Location = new System.Drawing.Point(12, 282);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(95, 90);
             this.button4.TabIndex = 4;
@@ -126,7 +128,7 @@
             // 
             this.ketQua.AutoSize = true;
             this.ketQua.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ketQua.Location = new System.Drawing.Point(689, 85);
+            this.ketQua.Location = new System.Drawing.Point(608, 32);
             this.ketQua.Name = "ketQua";
             this.ketQua.Size = new System.Drawing.Size(208, 35);
             this.ketQua.TabIndex = 5;
@@ -138,7 +140,7 @@
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(737, 123);
+            this.groupBox1.Location = new System.Drawing.Point(631, 70);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(168, 251);
             this.groupBox1.TabIndex = 6;
@@ -187,8 +189,10 @@
             this.groupBox2.Controls.Add(this.checkBox4);
             this.groupBox2.Controls.Add(this.checkBox3);
             this.groupBox2.Controls.Add(this.checkBox2);
+            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Location = new System.Drawing.Point(936, 136);
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Location = new System.Drawing.Point(842, 22);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(207, 238);
             this.groupBox2.TabIndex = 3;
@@ -240,7 +244,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(950, 392);
+            this.button5.Location = new System.Drawing.Point(99, 110);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(92, 53);
             this.button5.TabIndex = 7;
@@ -251,7 +255,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(923, 463);
+            this.label1.Location = new System.Drawing.Point(17, 191);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 20);
             this.label1.TabIndex = 8;
@@ -267,7 +271,7 @@
             "PHU QUOC",
             "DA NANG",
             "xxx"});
-            this.comboBox1.Location = new System.Drawing.Point(523, 392);
+            this.comboBox1.Location = new System.Drawing.Point(343, 213);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 28);
             this.comboBox1.TabIndex = 9;
@@ -277,7 +281,7 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.ItemHeight = 20;
-            this.comboBox2.Location = new System.Drawing.Point(366, 392);
+            this.comboBox2.Location = new System.Drawing.Point(204, 213);
             this.comboBox2.MaxDropDownItems = 5;
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(112, 28);
@@ -286,13 +290,22 @@
             // 
             // datesubmit
             // 
-            this.datesubmit.Location = new System.Drawing.Point(366, 438);
+            this.datesubmit.Location = new System.Drawing.Point(204, 259);
             this.datesubmit.Name = "datesubmit";
             this.datesubmit.Size = new System.Drawing.Size(94, 29);
             this.datesubmit.TabIndex = 11;
             this.datesubmit.Text = "button6";
             this.datesubmit.UseVisualStyleBackColor = true;
             this.datesubmit.Click += new System.EventHandler(this.datesubmit_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(343, 261);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(92, 67);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // frm1
             // 
@@ -301,11 +314,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1235, 540);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.datesubmit);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ketQua);
@@ -323,6 +335,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -352,5 +365,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Button datesubmit;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

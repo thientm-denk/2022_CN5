@@ -161,5 +161,10 @@ namespace WinFormsApp1
                 MessageBox.Show("Ban that tre dep");
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
