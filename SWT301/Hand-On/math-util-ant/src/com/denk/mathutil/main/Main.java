@@ -17,6 +17,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("This Messge come form main");
+        System.out.println("This Jar file is built base on Ant co-operatin with JUnit");
         tryTDDFrist();
 
     }
@@ -49,8 +51,8 @@ public class Main {
 
         //Test case #4: 
         // n = -5, -5! hy vọng bị đập mặt câu, cà chớ, n ko hợp lệ
-        System.out.println("-5! Status | expected: Ngoại lệ | actual: ");
-        MathUtil.getFactorial(-5);
+//        System.out.println("-5! Status | expected: Ngoại lệ | actual: ");
+//        MathUtil.getFactorial(-5);
         
         
 
