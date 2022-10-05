@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AutomobileWinApp/1.0.0": {
+        "dependencies": {
+          "AutoMobileLibrary": "1.0.0"
+        },
+        "runtime": {
+          "AutomobileWinApp.dll": {}
+        }
+      },
+      "AutoMobileLibrary/1.0.0": {
+        "runtime": {
+          "AutoMobileLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutomobileWinApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMobileLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

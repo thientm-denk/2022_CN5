@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "AutoMobileLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AutoMobileLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoMobileLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMobileLibrary/1.0.0": {
+      "type": "project",
+      "path": "../AutoMobileLibrary/AutoMobileLibrary.csproj",
+      "msbuildProject": "../AutoMobileLibrary/AutoMobileLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "AutoMobileLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\denk\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Study\\2022_CN5\\PRN221\\Hand_on\\AutoMobileManagement\\frmCarManagement\\AutomobileWinApp.csproj",
+      "projectName": "AutomobileWinApp",
+      "projectPath": "E:\\Study\\2022_CN5\\PRN221\\Hand_on\\AutoMobileManagement\\frmCarManagement\\AutomobileWinApp.csproj",
+      "packagesPath": "C:\\Users\\denk\\.nuget\\packages\\",
+      "outputPath": "E:\\Study\\2022_CN5\\PRN221\\Hand_on\\AutoMobileManagement\\frmCarManagement\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\denk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "E:\\Study\\2022_CN5\\PRN221\\Hand_on\\AutoMobileManagement\\AutoMobileLibrary\\AutoMobileLibrary.csproj": {
+              "projectPath": "E:\\Study\\2022_CN5\\PRN221\\Hand_on\\AutoMobileManagement\\AutoMobileLibrary\\AutoMobileLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

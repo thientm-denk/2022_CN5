@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AutoMobileLibrary/1.0.0": {
+        "runtime": {
+          "AutoMobileLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMobileLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
