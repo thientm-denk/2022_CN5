@@ -1,0 +1,190 @@
+.blog-detail-container {
+    padding: 80px 20px;
+    background-color: #F4F4F4;
+}
+
+.blog-heading {
+    font-size: 40px;
+}
+
+.blog-category {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+}
+
+.blog-note {
+    display: block;
+    margin: 8px 0;
+}
+
+.blog-category:hover {
+    color: #E06120;
+}
+
+.blog-detail-heading {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+}
+
+.author-container {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.author-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline;
+}
+
+.author-fullname {
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+.rating-container {
+    padding-top: 20px;
+    display: flex;
+}
+
+.rating-number {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.author-redirect {
+    text-decoration: none;
+    color: black;
+}
+
+.author-redirect:hover {
+    color: #E06120;
+}
+
+.body-detail {
+    margin-top: 40px;
+}
+
+.save-btn {
+    font-size: 30px;
+}
+
+.save-rate-container {
+    position: fixed;
+    top: 208px;
+    right: 368px;
+    display: flex;
+    flex-direction: column;
+}
+
+.save-container,
+.rate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #E06120;
+    color: white;
+    cursor: pointer;
+}
+
+.save-container:hover {
+    background-color: black;
+}
+
+.rate-container:hover {
+    background-color: black;
+}
+
+.body-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.body-description {
+    margin: 40px 40px 0 40px;
+}
+
+.recipe-description-detail {
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.guide-description {
+    margin: 10px 0 0 30px;
+}
+
+.comment-section {
+    margin-top: 40px;
+}
+
+.comment-item {
+    margin-top: 20px
+}
+
+.comment-item p {
+    margin-left: 30px
+}
+
+.comment-description {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.add-review {
+    text-decoration: none;
+    color: white;
+    background-color: #E06120;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    display: inline-block;
+    border: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comment-detail {
+    margin-top: 10px;
+}
+
+.cmt-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cmt-author-container {
+    display: flex;
+}
+
+.author-cmt {
+    display: block;
+    line-height: 40px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.author-cmt:hover {
+    color: #E06120;
+}
+
+
+.rating-rate-comment {
+    padding: 15px 0 0 30px;
+}
+
+.rating-heading {
+    padding-right: 10px;
+}

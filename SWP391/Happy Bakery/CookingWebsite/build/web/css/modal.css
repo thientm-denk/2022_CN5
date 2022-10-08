@@ -1,0 +1,212 @@
+/* Shadow section */
+.shadow.open {
+    display: flex;
+}
+
+.shadow {
+    display: flex;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 4;
+    display: none;
+}
+
+/* Modal section */
+
+.modal.open {
+    display: flex;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 4;
+    display: none;
+    animation: modalOut ease 0.3s;
+}
+
+.modal-container {
+    background-color: #fff;
+    width: 900px;
+    /* max-width bên dưới dùng để căn hai bên 
+    khi thu nhỏ màn để modal không bị dính vào hai bên */
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+}
+
+.modal-header {
+    position: relative;
+}
+
+.modal-close {
+    background-color: #E06120;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    background-color: black;
+    color: white;
+}
+
+.modal-heading {
+    background-color: #E06120;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.modal-body {
+    padding: 0 16px;
+}
+
+.modal-label {
+    display: block;
+    font-size: 17px;
+    margin: 16px 0;
+}
+
+.modal-input {
+    height: 35px;
+    line-height: 35px;
+}
+
+.modal-heading i {
+    margin-right: 16px;
+}
+
+.modal-footer {
+    font-size: 17px;
+    padding: 0 16px;
+    text-align: right;
+    padding-bottom: 16px;
+}
+
+.help {
+    text-decoration: none;
+    color: #E06120;
+}
+
+.add-rv-btn {
+    padding: 10px;
+    background-color: #E06120;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.add-rv-btn:hover {
+    background-color: black;
+}
+
+/* 
+Chỉnh cho modal sẽ có hiệu ứng trôi từ trên xuống khi được mở lên
+Được sử dụng ở trên .modal
+*/
+@keyframes modalOut {
+    from {
+        transform: translateY(-200px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.review-input {
+    width: 95%;
+    height: 200px;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+}
+
+/* Rating star */
+
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating label:last-child {
+    position: static;
+}
+
+.rating label:nth-child(1) {
+    z-index: 5;
+}
+
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating label .icon {
+    float: left;
+    color: transparent;
+}
+
+.rating label:last-child .icon {
+    color: #000;
+}
+
+.rating:not(:hover) label input:checked~.icon,
+.rating:hover label:hover input~.icon {
+    color: #E06120;
+}
+
+.rating label input:focus:not(:checked)~.icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #E06120;
+}
