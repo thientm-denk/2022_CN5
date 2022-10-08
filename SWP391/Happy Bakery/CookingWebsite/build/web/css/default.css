@@ -1,0 +1,97 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+.bg-orange {
+    background-color: #FFB300;
+}
+
+.bg-red {
+    background-color: #E06120;
+}
+
+.grad {
+    background-color: #FFB300;
+    background-image: linear-gradient(to right, #FFB300 , #E06120);
+}
+
+.bg-grey {
+    background-color: #EFF1F3;
+}
+.mapping {
+    width: 100%;
+    height: 117px;
+}
+.mapping-heading {
+    display: inline;
+    width: 100%;
+    height: calc(100%/2);
+    color: white;
+    padding-left: 90px;
+    font-size: 40px;
+}
+.breadcrums {
+    height: calc(100%/2);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+.breadcrums a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.fnt-30 {
+    font-size: 30px;
+}
+.fnt-20 {
+    font-size: 20px;
+}
+.fnt-60 {
+    font-size: 60px;
+}
+.mg-bot-20 {
+    margin-bottom: 20px;
+}
+.mgn-right-15 {
+    margin-right: 15px;
+}
+.fnt-wei-15 {
+    font-weight: 150;
+}
+.fnt-wei-bold {
+    font-weight: bold;
+}
+.mgn-top-15 {
+    margin-top: 15px;
+}
+.mgn-bot-20 {
+    margin-bottom: 20px;
+}
+.mgn-top-120 {
+    margin-top: 120px;
+}
+.pad-bot-90 {
+    padding-bottom: 90px;
+}
+.line-h-136 {
+    line-height: 136px;
+}
+.line-h a {
+    line-height: 35px;
+    text-decoration: none;
+    color: #E06120;
+}
+.line-h a:hover {
+    color: #FFB300;
+}
+.cl-red {
+    color: red;
+}
+.bg-item-grey {
+    background-color: #F4F4F4; 
+}
+.bg-item-white {
+    background-color: white; 
+}

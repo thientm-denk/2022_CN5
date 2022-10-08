@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 24, 2022, 1:24:17 PM
+    Author     : thinh
+*/
+/* Recipe page */
+.recipe-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 80px 15px;
+}
+
+.recipe-item {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    border-radius: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.recipe-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.recipe-body {
+    background-color: white;
+    padding: 15px 15px 0 15px;
+}
+
+.recipe-name {
+    font-size: 20px;
+    font-weight: 150;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.recipe-name:hover {
+    color: #E06120;
+}
+
+.recipe-type {
+    line-height: 25px;
+}
+
+.recipe-author {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.recipe-author:hover {
+    color: #E06120;
+}
+
+.recipe-more {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.recipe-rating {
+    padding: 5px 0;
+}
+
+.rating-number {
+    display: inline;
+    margin: 0 3px;
+}
+
+.pp-rating {
+    display: inline;
+    margin-left: 8px;
+}

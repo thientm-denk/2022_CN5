@@ -1,0 +1,55 @@
+.content__paging-recipe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+    background-color: #d6d5d5;
+}
+
+.content__paging-recipe .total-item-recipe , .total-page-recipe{
+    margin-right: 30px;
+}
+
+.content__paging-recipe .number-page-recipe{
+    display: flex;
+}
+
+.content__paging-recipe ul{
+    display: flex;
+    justify-content: center;
+}
+
+.content__paging-recipe li{
+   width: 30px;
+   height: 30px;
+   border-radius: 3px;
+   border: 1px solid gray;
+   justify-content: center;
+   align-items: center;
+   margin-right: 15px;
+   cursor: pointer;
+   list-style: none;
+   text-align: center;
+   line-height: 32px;
+}
+
+.content__paging-recipe ul li a{
+    color:black;
+}
+
+.content__paging-recipe .active-recipe{
+    background: #ff6e06;
+    border: 1px solid #ff6e06;
+}
+
+.content__paging-recipe .active-recipe a{
+    color: white;
+}
+
+.btn-hide-recipe {
+    display: none;
+}
+
+.btn-show-recipe {
+    display: block;
+}

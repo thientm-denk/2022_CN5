@@ -1,0 +1,247 @@
+.recipe-detail-container {
+    padding: 80px 20px;
+    background-color: #F4F4F4;
+}
+
+.recipe-heading {
+    font-size: 40px;
+}
+
+.author-container {
+    display: flex;
+    padding-top: 20px;
+}
+
+.author-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline;
+}
+
+.author-fullname {
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+.rating-container {
+    padding-top: 20px;
+    display: flex;
+}
+
+.rating-number {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.author-redirect {
+    text-decoration: none;
+    color: black;
+}
+
+.author-redirect:hover {
+    color: #E06120;
+}
+
+.body-detail {
+    display: flex;
+    margin-top: 40px;
+    width: 1050px;
+}
+
+.save-btn {
+    font-size: 30px;
+}
+
+.save-rate-container {
+    position: fixed;
+    top: 340px;
+    right: 390px;
+    display: flex;
+    flex-direction: column;
+}
+
+.save-container,
+.rate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #E06120;
+    color: white;
+    cursor: pointer;
+}
+
+.save-container:hover {
+    background-color: black;
+}
+
+.rate-container:hover {
+    background-color: black;
+}
+
+.body-img {
+    width: 1050px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.cooking-time {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.time-spec {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 0.5px black solid;
+    border-right: 0.5px black solid;
+    border-bottom: 0.5px black solid;
+    border-top: 5px #E06120 solid;
+}
+
+.time-ammount-heading {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E06120;
+}
+
+.time-spec span {
+    display: block;
+}
+
+.body-description {
+    margin-top: 40px;
+}
+
+.recipe-description-detail {
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.ingredient-list {
+    margin-top: 40px;
+}
+
+.ingredient-detail {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ingredient-item {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+.ingredient-name {
+    width: 70%;
+    line-height: 41px;
+}
+
+.checkout-ingredient {
+    text-decoration: none;
+    color: white;
+    background-color: #E06120;
+    padding: 10px;
+}
+
+.checkout-ingredient:hover {
+    color: white;
+    background-color: black;
+}
+
+.step-list-heading {
+    margin-top: 40px;
+}
+
+.step-detail {
+    margin-top: 10px;
+}
+
+.step-item {
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.step-number {
+    font-weight: bold;
+}
+
+.step-description {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.guide-description {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.add-review {
+    text-decoration: none;
+    color: white;
+    background-color: #E06120;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    display: inline-block;
+    border: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comment-detail {
+    margin-top: 10px;
+}
+
+.comment-item {
+    margin-bottom: 30px;
+}
+
+.cmt-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cmt-author-container {
+    display: flex;
+}
+
+.author-cmt {
+    display: block;
+    line-height: 40px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.author-cmt:hover {
+    color: #E06120;
+}
+
+.comment-item p {
+    margin-left: 30px
+}
+
+.comment-description {
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.rating-rate-comment {
+    padding: 15px 0 0 30px;
+}
